@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Pintu Crypto Market Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A replica page of pintu.co.id/market focused on the token list in Indonesian Rupiah (IDR).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Built With](#built-with)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation) - Updated Soon
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to the Pintu Crypto Market Page! This project aims to replicate the functionality of the pintu.co.id/market page, with a specific focus on displaying the token list in Indonesian Rupiah (IDR). Users can explore the various tokens available for trading and access relevant market information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+This project is built using the following technologies and frameworks:
+- React.js
+- JavaScript
+- Tailwind CSS
+- React-Query
+- Hooks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To install and set up the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the required dependencies by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Once the installation is complete, start the development server:
 
-### `npm run eject`
+    npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Open your browser and navigate to http://localhost:3000 to access the Pintu Crypto Market Page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Pintu Crypto Market Page provides a user-friendly interface for exploring the token list in Indonesian Rupiah (IDR). Users can navigate through the available tokens and view market data for each token. For actual transactions and in-depth details, please visit the official website at https://pintu.co.id/.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Replicate website [https://pintu.co.id/market](https://pintu.co.id/market) components :
+ [x] Token List Desktop Mode
+ [x] Token List Mobile (small display) Mode
+ [x] Tags
+ [x] SearchBar
+ [ ] Tags Filtering
+ [ ] Search Function
+ [ ] Sorting Token
+ [ ] Testing
+ [ ] Storybook
 
-## Learn More
+The unchecked items in the list above can be further developed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Documentation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ [ ]documentation on how the app was designed and how to run the code.
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For any questions or feedback, please feel free to reach out to me:
 
-### Analyzing the Bundle Size
+ Email: [rebecca.yohanna@gmail.com](mailto:rebecca.yohanna@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank You!
