@@ -8,7 +8,10 @@ module.exports = function (app) {
       changeOrigin: true,
       headers: {
         'Access-Control-Allow-Origin': '*',
-        'Cache-Control': 'no-store', // or 'no-cache'
+        'Cache-Control': 'no-store, no-cache, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0',
+        // Pragma header with the value no-cache and the Expires header with the value 0. These headers provide additional instructions to prevent caching.
       },
       pathRewrite: {
         '^/api': '',
