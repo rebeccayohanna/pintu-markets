@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 
 export const usePriceChanges = () => {
     return useQuery(['priceChanges'], async () => {
-        const response = await fetch('/api/v2/trade/price-changes'); // move to file fetching API
+        const response = await fetch('/api/trade/price-changes'); // move to file fetching API
         const json = await response.json();
 
         if (json.code === 'success') {
