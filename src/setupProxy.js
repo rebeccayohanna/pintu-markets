@@ -8,6 +8,7 @@ module.exports = function (app) {
       changeOrigin: true,
       headers: {
         'Access-Control-Allow-Origin': '*',
+        'Cache-Control': 'no-store', // or 'no-cache'
       },
       pathRewrite: {
         '^/api': '',
