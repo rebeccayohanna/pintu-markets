@@ -1,7 +1,7 @@
 # Pintu Crypto Market Page
 
 <p align="center">
-  <img src="src/assets/icons/Logo.svg" alt="Logo">
+  <img src="src/assets/icons/logo.svg" alt="Logo">
   <br>
   <a href="https://pintu-markets.vercel.app/"><strong>View Demo</strong></a>
 </p> 
@@ -27,11 +27,11 @@ The Pintu Crypto Market Page provides a user-friendly interface for exploring th
 
 ### Desktop View
 
-![](src/assets/images/DesktopView.jpg)
+<img src="src/assets/images/DesktopView.jpg" alt="Desktop">
 
 ### Mobile View
 
-![](src/assets/images/MobileView.jpg)
+<img src="src/assets/images/MobileView.jpg" alt="Mobile">
 
 ## Installation
 
