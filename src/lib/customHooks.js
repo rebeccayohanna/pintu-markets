@@ -1,34 +1,16 @@
 import { useQuery } from "react-query";
+import { fetchPriceChanges, fetchSupportedCurrencies } from "./fetchApi";
 
 export const usePriceChanges = () => {
-    return useQuery(['priceChanges'], async () => {
-        const response = await fetch('/api/trade/price-changes'); // move to file fetching API
-        const json = await response.json();
+    const { data, isLoading, error } = useQuery(['priceChanges'], fetchPriceChanges, {
+        refetchInterval: 1000,
+    });
 
-        if (json.code === 'success') {
-            return json.payload;
-        } else {
-            const error = new Error(json.message);
-            error.code = json.code;
-            throw error;
-        }
-    }, {
-        refetchInterval: 1500,
-    }
-    );
-}
+    return { data, isLoading, error };
+};
 
 export const useSupportedCurrencies = () => {
-    return useQuery('supportedCurrencies', async () => {
-        const response = await fetch('/api/wallet/supportedCurrencies');
-        const json = await response.json();
+    const { data, isLoading, error } = useQuery(['supportedCurrencies'], fetchSupportedCurrencies);
 
-        if (json.code === 'success') {
-            return json.payload;
-        } else {
-            const error = new Error(json.message);
-            error.code = json.code;
-            throw error;
-        }
-    });
-}
+    return { data, isLoading, error };
+};
