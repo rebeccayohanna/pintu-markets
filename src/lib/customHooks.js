@@ -20,7 +20,7 @@ export const usePriceChanges = () => {
 
 export const useSupportedCurrencies = () => {
     return useQuery('supportedCurrencies', async () => {
-        const response = await fetch('/api/v2/wallet/supportedCurrencies');
+        const response = await fetch('/api/wallet/supportedCurrencies');
         const json = await response.json();
 
         if (json.code === 'success') {
