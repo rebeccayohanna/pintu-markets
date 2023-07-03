@@ -27,11 +27,11 @@ The Pintu Crypto Market Page provides a user-friendly interface for exploring th
 
 ### Desktop View
 
-<img src="src/assets/images/DesktopView.jpg" alt="Desktop">
+<img src="src/assets/images/DesktopView.JPG" alt="Desktop">
 
 ### Mobile View
 
-<img src="src/assets/images/MobileView.jpg" alt="Mobile">
+<img src="src/assets/images/MobileView.JPG" alt="Mobile">
 
 ## Installation
 
