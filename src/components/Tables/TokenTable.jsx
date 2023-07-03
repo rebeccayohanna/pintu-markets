@@ -21,7 +21,7 @@ const TokenTable = ({ dataPriceChanges, dataSupportedCurrencies }) => {
                     dataSupportedCurrencies?.slice(1).map((item, index) => {
                         const matchPrice = dataPriceChanges?.find((curr) => curr?.pair.split("/", 1)[0] === item.currencyGroup.toLowerCase());
                         return (
-                            <tr className="font-semibold">
+                            <tr key={index} className="font-semibold">
                                 <td className="border-b border-gray-200 p-5">
                                     <a href="/">
                                         <div className="flex items-center gap-6">
