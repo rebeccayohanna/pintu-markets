@@ -6,17 +6,11 @@
     },
     {
       "source": "/static.pintu.co.id/assets/images/logo/(.*)",
-      "destination": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/$1",
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
+      "destination": "https://s3-ap-southeast-1.amazonaws.com/static.pintu.co.id/assets/images/logo/$1"
     },
     {
       "source": "/content.pintu.co.id/(.*)",
-      "destination": "https://s3-ap-southeast-1.amazonaws.com/content.pintu.co.id/$1",
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
+      "destination": "https://s3-ap-southeast-1.amazonaws.com/content.pintu.co.id/$1"
     }
   ]
 }
